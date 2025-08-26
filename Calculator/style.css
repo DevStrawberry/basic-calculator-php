@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h3 {
+    color: #333333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"][name="minus"] {
+    background-color: #f44336;
+}
+
+input[type="submit"][name="minus"]:hover {
+    background-color: #da190b;
+}
+
+input[type="submit"][name="multi"] {
+    background-color: #ff9800;
+}
+
+input[type="submit"][name="multi"]:hover {
+    background-color: #e68a00;
+}
+
+input[type="submit"][name="division"] {
+    background-color: #2196F3;
+}
+
+input[type="submit"][name="division"]:hover {
+    background-color: #0b7dda;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Error message styling */
+p.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
